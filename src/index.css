@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200&display=swap');
+
+* {
+    font-family: 'Kanit', sans-serif;
+}
+
+.nav-link :hover {
+    text-decoration-line: underline;
+     font-weight: bolder; 
+}
+
+.cart-troll{
+   position: relative;
+    font-size: 180%;
+    width: 30px;
+    margin-left: 50px;
+}
+
+
+.cart-troll--item{
+    width: 1.3rem;
+    height:1.45rem;
+    position: absolute;
+    background-color: #e67b7b; 
+    color:#000;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    top: 18.5%;
+   left: 89.5%;
+}
+
+.containerm{
+    max-width: 120rem;
+    height: 70vh; /*THIS*/
+    /* background-color: rgb(19, 21, 153); */
+    margin: 0 auto;
+}
+
+.grid{
+    display: grid;
+    gap: 9rem;
+}
+
+.grid-two-column {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.grid-three-column{
+    grid-template-columns: repeat(3 , 1fr);
+}
+
+.gridd{
+    gap: 4.8rem;
+}
+
+.services1 , .services2 , .services3 {
+    width: 370px;
+    height: 8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    border-radius: 3rem;
+    /* box-shadow: #e031310d; */
+    background-color:rgb(85, 200, 238);
+}
+
+.icon1 , .icon2 , .icon3 {
+    font-size: 35px;
+}
+
+
+.cont div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1.9rem;
+}
+
+
+.footLogo , .footSocial , .footAb {
+    width: 400px;
+    height: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+
+
+.foott div {
+    display: flex;
+    /* flex-direction: row; */
+    /* justify-content: center; */
+    /* align-items: center; */
+     /* gap: 1.9rem;  */
+}
+
+.footicons {
+    font-size: 40px;
+    /* vertical-align: bottom; */
+      padding-left: 135px; 
+    /*padding-bottom: 1px; */
+}
+
+.iconfb , .iconinsta , .iconyt , .icontwitt{
+    padding-left: 15px;
+    /* color: rgb(195, 248, 248); */
+}
+
+.tosubmit1 , .tosubmit2 {
+    margin-left: 50px;
+    margin-right: 50px;
+}
