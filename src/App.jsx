@@ -4,12 +4,13 @@ import { useState } from "react";
 import Categories from './pages/Categories'
 import Home from './pages/Home'
 import Login from './pages/Login'
-import Products from './pages/products'
+import Products from './pages/Products'
 import Signup from './pages/Signup'
 import NavigationBar from './components/NavigationBar'
 import ErrorPage404 from './pages/ErrorPage404'
 import FooterSection from './components/FooterSection'
-
+import CategoryPage from './pages/CategoryPage';
+import ProductPage from './pages/productPage';
 
 function App() {
 
@@ -26,7 +27,10 @@ const [user,setUser] = useState(false)
   <Routes>
     <Route path="/" element={<Home />} /> 
     <Route path="/Categories" element={<Categories />} />  
-    <Route path="/Products" element={<Products />} /> 
+     <Route path="/products/:productID" element={<ProductPage />} /> 
+     <Route path="/products" element={<Products />} />
+    
+     < Route path="/products/category/:categoryName" element={<CategoryPage />} />  
     <Route path="*" element={<ErrorPage404 />} /> 
   </Routes>
   ) 
@@ -37,11 +41,14 @@ const [user,setUser] = useState(false)
     <Route path="/Categories" element={<Categories />} /> 
     <Route path="/Login" element={<Login />} /> 
     <Route path="/Signup" element={<Signup />} /> 
-    <Route path="/Products" element={<Products />} /> 
+    <Route path="/products" element={<Products />} />
+    <Route path="/products/:productID" element={<ProductPage />} /> 
+
+     < Route path="/products/category/:categoryName" element={<CategoryPage />} />   
     <Route path="*" element={ <Navigate to="/login" replace={true} />} />
   </Routes>
   )
-}
+} 
 
 
 

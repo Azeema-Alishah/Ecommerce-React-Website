@@ -32,9 +32,9 @@ export default function CategorySection() {
     categories.map((val, key) =>
     
         <div className="col-md-6 my-4" key={key}>
-        <Link className='text-decoration-none' to="/Products" >
+        <Link className='text-decoration-none' to={`/products/category/${val}`} >
         <Card >
-    <Card.Img variant="top" src={val.thumbnail}  />   
+    {/* <Card.Img variant="top" src={val.thumbnail}  />    */}
     <Card.Body>
     <Card.Title>{key + 1} - {val.toUpperCase().replace('-', ' ')}</Card.Title>
     <Card.Text>

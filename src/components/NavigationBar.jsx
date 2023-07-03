@@ -24,8 +24,8 @@ function NavigationBar() {
             <Link className='ms-3 btn btn-secondary' style={{color:'#e67b7b', backgroundColor:'white'}} to="/Login"><b>Login</b></Link>
             <Link className='ms-4 btn btn-secondary' style={{color:'#e67b7b', backgroundColor:'white'}} to="/SignUp"><b>SignUp</b></Link>
             <Link className='nav-link' to="/">
-              <CgShoppingCart className="cart-troll" />
-              <span className="cart-troll--item"> 0 </span>
+              {/* <CgShoppingCart className="cart-troll" />
+              <span className="cart-troll--item"> 0 </span> */}
             </Link>
           </Nav>
         </Container>
