@@ -86,11 +86,11 @@ export default function Products() {
             products.map((val, key) =>
               <div className="col-md-4" key={key}>
                 <Link to={`/products/${val.id}`} className='text-decoration-none'>
-                  <Card className='stop' >
-                    <Card.Img variant="top" src={val.thumbnail} />
-                    <Card.Body>
-                      <Card.Title >{val.title} -${val.price}</Card.Title>
-                      <Card.Text>{val.description}
+                  <Card className='stop mb-3' >
+                    <Card.Img className='mt-4' variant="top" src={val.thumbnail}    style={{  width: '100%', height: '20vh',  objectFit: 'contain' }}/>
+                    <Card.Body >
+                      <Card.Title style={{ marginBottom:10}} >{val.title.length > 20 ? val.title.slice(0, 20) + '...' : val.title}  -${val.price}</Card.Title>
+                      <Card.Text> {val.description.length > 50 ? val.description.slice(0, 50) + '...' : val.description}
                       </Card.Text>
                     </Card.Body>
                   </Card>

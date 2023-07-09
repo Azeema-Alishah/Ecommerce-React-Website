@@ -19,7 +19,7 @@ export default function CategorySection() {
       return (
         <>
         <div className="container">
-            <div className="my-5 text-center">
+            <div className="my-5 text-center" >
                 <h1>
                     Categories
                 </h1>
@@ -31,7 +31,7 @@ export default function CategorySection() {
     
     categories.map((val, key) =>
     
-        <div className="col-md-6 my-4" key={key}>
+        <div className="col-md-6 my-4"  key={key}>
         <Link className='text-decoration-none' to={`/products/category/${val}`} >
         <Card >
     {/* <Card.Img variant="top" src={val.thumbnail}  />    */}
