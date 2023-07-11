@@ -10,7 +10,7 @@ import NavigationBar from './components/NavigationBar'
 import ErrorPage404 from './pages/ErrorPage404'
 import FooterSection from './components/FooterSection'
 import CategoryPage from './pages/CategoryPage';
-import ProductPage from './pages/productPage';
+import ProductPage from ' ./pages/ProductPage';
 
 function App() {
 

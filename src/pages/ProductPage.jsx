@@ -6,7 +6,7 @@ import Swal from 'sweetalert2'
 import ImageSection from '../Components/ImageSection'
 
 
-export default function productPage() {
+export default function ProductPage() {
 
     const { productID } = useParams()
     const [product, setproduct] = useState({})
