@@ -6,7 +6,9 @@ import Home from './pages/Home'
 import Login from './pages/Login'
 import Products from './pages/Products'
 import Signup from './pages/Signup'
-import NavigationBar from './Components/NavigationBar'
+//import NavigationBar from './Components/NavigationBar'
+
+import NavigationBar from './Components/NavigationBar';
 import ErrorPage404 from './pages/ErrorPage404'
 import FooterSection from './Components/FooterSection'
 import CategoryPage from './pages/CategoryPage';
