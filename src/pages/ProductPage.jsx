@@ -5,7 +5,7 @@ import ReactStars from 'react-stars'
 import Swal from 'sweetalert2'
 // import ImageSection from '../Components/ImageSection'
 
-import ImageSection from '../Components/ImageSection';
+import ImageSection from '../components/ImageSection';
 
 
 

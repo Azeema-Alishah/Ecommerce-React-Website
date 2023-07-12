@@ -8,9 +8,9 @@ import Products from './pages/Products'
 import Signup from './pages/Signup'
 //import NavigationBar from './Components/NavigationBar'
 
-import NavigationBar from "./Components/NavigationBar";
+import NavigationBar from "./components/NavigationBar";
 import ErrorPage404 from './pages/ErrorPage404'
-import FooterSection from './Components/FooterSection'
+import FooterSection from './components/FooterSection'
 import CategoryPage from './pages/CategoryPage';
 // import ProductPage from ' ./pages/ProductPage';
 
@@ -23,7 +23,7 @@ const [user,setUser] = useState(false)
 
   return (
     <>
-    <NavigationBar />
+    <NavigationBar/>
 
 {
   user
@@ -66,7 +66,7 @@ const [user,setUser] = useState(false)
         <Route path="*" element={<ErrorPage404 />} /> 
       </Routes> */}
   
-<FooterSection />
+<FooterSection/>
 
     </>
   )

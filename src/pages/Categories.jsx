@@ -1,5 +1,5 @@
 import { React } from 'react' ;
-import CategorySection from '../Components/CategorySection' ;
+import CategorySection from '../components/CategorySection' ;
 // import { Link, useParams } from 'react-router-dom' ;
 // import Card from 'react-bootstrap/Card';
 // import axios from 'axios';
