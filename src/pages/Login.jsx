@@ -56,9 +56,9 @@ Swal.fire({
   return (
     <>
     {/* <div>Login</div> */}
-    <div>
+    <div className="my-3" style={{backgroundColor:"#caf0f8"}}  >
     
-        <h2 style={{textAlign:"center" , color:"#e67b7b" , fontWeight:"bold"}}>Log In</h2>
+        <h2 style={{textAlign:"center" , color:"#0077b6" , fontWeight:"bold" ,}}>Log In</h2>
 
         <div className='formms' >
         <Form style={{display:"flex" , flexDirection:"column"}}>

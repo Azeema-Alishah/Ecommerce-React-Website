@@ -18,9 +18,9 @@ export default function CategorySection() {
     
       return (
         <>
-        <div className="container">
-            <div className="my-5 text-center" >
-                <h1>
+        <div className="container-fluid "   style={{backgroundColor:"#caf0f8"}}>
+            <div className="my-3 text-center" >
+                <h1 style={{ color:"#0077b6"}}>
                     Categories
                 </h1>
                 <p className="text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat consequuntur deserunt illum aut quaerat sunt sapiente ab ea tenetur magnam laudantium iusto neque beatae qui quae dolorem nam minima esse, atque nihil vel enim omnis deleniti. Saepe veniam vero dolore eaque nam doloribus, quidem possimus a omnis sed nulla consectetur!</p>
@@ -31,8 +31,8 @@ export default function CategorySection() {
     
     categories.map((val, key) =>
     
-        <div className="col-md-6 my-4"  key={key}>
-        <Link className='text-decoration-none' to={`/products/category/${val}`} >
+        <div className="col-md-6 my-4 "  key={key}>
+        <Link className='text-decoration-none ' to={`/products/category/${val}`} >
         <Card >
     {/* <Card.Img variant="top" src={val.thumbnail}  />    */}
     <Card.Body>

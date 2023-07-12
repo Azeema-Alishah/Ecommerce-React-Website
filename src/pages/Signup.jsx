@@ -27,13 +27,13 @@ export default function Signup() {
 
     {/* <div className='signup' style={{textAlign:"center"}}><b>Signup</b></div> */}
 
-     <div> 
-         <div className="titles" style={{textAlign:"center" , color:"#e67b7b" , fontWeight:"bold"}}>
+     <div className='my-3' style ={{ backgroundColor:"#caf0f8" }}> 
+         <div className="titles" style={{textAlign:"center" , color:"#0077b6" , fontWeight:"bold"}}>
         <h1>Create Your Account</h1>
         <p>Enter credentials below to setup your account</p> 
         </div>
 
-        <Form className="mb-3">
+        <Form className="mb-3" > 
       <Row>
         <Col>
 
