@@ -3,7 +3,10 @@ import { useParams } from 'react-router-dom'
 import axios from 'axios'
 import ReactStars from 'react-stars'
 import Swal from 'sweetalert2'
-import ImageSection from '../Components/ImageSection'
+// import ImageSection from '../Components/ImageSection'
+
+import ImageSection from '../Components/ImageSection';
+
 
 
 export default function ProductPage() {
